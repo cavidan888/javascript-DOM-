@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+
+  
+
+</head>
+<body>
+
+	
+    <script type="text/javascript">
+
+         
+         
+          
+          
+  
+
+
+          var divo = {
+
+          	 width:"width:300px;",
+          	 height:"height:150px;",
+          	 background:"background:red;",
+          	 border:"border:1px solid black;",
+          }
+
+          var propContainer = "";
+
+         
+
+          function createMyDiv(objectim){
+             
+              var elem = document.createElement('div');
+              elem.setAttribute("class",'f');
+
+
+              elem.setAttribute("style",divo.width + divo.height + divo.background + divo.border);
+
+
+              
+              document.body.appendChild(elem);
+                   
+          } 
+
+          createMyDiv(divo);
+
+ 
+          
+         
+
+   </script>
+
+</body>
+</html>
